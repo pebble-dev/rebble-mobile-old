@@ -9,14 +9,48 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        bottomNavigationBar: AppBottomNav(),
+        body: Center(
+          child: StepsWidget(),
+        ));
+  }
+}
+
+class StepsWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Column(
+        children: <Widget>[
+          Padding(
+            padding: EdgeInsets.all(5.0),
+            child: Row(
+              children: <Widget>[
+                Icon(Icons.directions_run),
+                Text("Activity"),
+                ButtonBar(
+                  children: <Widget>[
+                    IconButton(
+                      iconSize: 25,
+                      icon: Icon(Icons.looks_one),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          Row(),
+          Row(),
+          Row(),
+        ],
       ),
-      bottomNavigationBar: AppBottomNav(),
-      body: Center(
-          child: Column(
-        children: <Widget>[Text("Let's Rebble")],
-      )),
+      color: Theme.of(context).cardColor,
+      width: 300,
+      height: 300,
+      //constraints: BoxConstraints(minWidth: 5, maxWidth: 200),
     );
   }
 }

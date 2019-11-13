@@ -13,6 +13,7 @@ class AppBottomNav extends StatelessWidget {
         BottomNavigationBarItem(
             icon: Icon(Icons.directions_run), title: Text('Health')),
       ],
+      backgroundColor: Theme.of(context).primaryColor,
       type: BottomNavigationBarType.fixed,
       currentIndex: 0,
       iconSize: 20,

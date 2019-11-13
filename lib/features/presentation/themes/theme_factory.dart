@@ -23,6 +23,7 @@ class ThemeFactory {
         fontFamily: 'Roboto',
         primaryColor: color2,
         accentColor: color3,
+        cardColor: color4,
         brightness: Brightness.dark,
         scaffoldBackgroundColor: color1,
         bottomAppBarTheme: BottomAppBarTheme(
