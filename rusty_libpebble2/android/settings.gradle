@@ -1,0 +1,2 @@
+include ':app', ':rusty-libpebble2-lib'
+rootProject.name='rusty-libpebble2'

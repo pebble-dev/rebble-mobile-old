@@ -1,4 +1,0 @@
-#Wed Nov 13 14:24:29 MST 2019
-base.0=/Users/longRewt/Coding/Flutter/development/rebble-mobile/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

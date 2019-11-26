@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - rusty_libpebble2 (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - rusty_libpebble2 (from `.symlinks/plugins/rusty_libpebble2/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  rusty_libpebble2:
+    :path: ".symlinks/plugins/rusty_libpebble2/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  rusty_libpebble2: 2f88328877b19a2d0f3b889a4743ee4b475d9319
+
+PODFILE CHECKSUM: 10ae9c18d12c9ffc2275c9a159a3b1e281990db0
+
+COCOAPODS: 1.8.4

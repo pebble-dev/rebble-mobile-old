@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9951573238D15C700E65F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9951572238D15C700E65F2D /* AppDelegate.swift */; };
+		F9951575238D15C700E65F2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9951574238D15C700E65F2D /* SceneDelegate.swift */; };
+		F9951577238D15C700E65F2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9951576238D15C700E65F2D /* ContentView.swift */; };
+		F9951579238D15C900E65F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9951578238D15C900E65F2D /* Assets.xcassets */; };
+		F995157C238D15C900E65F2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F995157B238D15C900E65F2D /* Preview Assets.xcassets */; };
+		F995157F238D15C900E65F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F995157D238D15C900E65F2D /* LaunchScreen.storyboard */; };
+		F9951588238D168500E65F2D /* librustylibpebble2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9951587238D167B00E65F2D /* librustylibpebble2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F995156F238D15C700E65F2D /* rusty-libpebble2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rusty-libpebble2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9951572238D15C700E65F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9951574238D15C700E65F2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9951576238D15C700E65F2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9951578238D15C900E65F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F995157B238D15C900E65F2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F995157E238D15C900E65F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9951580238D15C900E65F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9951587238D167B00E65F2D /* librustylibpebble2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librustylibpebble2.a; path = ../libs/librustylibpebble2.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F995156C238D15C700E65F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9951588238D168500E65F2D /* librustylibpebble2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9951566238D15C700E65F2D = {
+			isa = PBXGroup;
+			children = (
+				F9951571238D15C700E65F2D /* rusty-libpebble2 */,
+				F9951570238D15C700E65F2D /* Products */,
+				F9951586238D167B00E65F2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9951570238D15C700E65F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F995156F238D15C700E65F2D /* rusty-libpebble2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9951571238D15C700E65F2D /* rusty-libpebble2 */ = {
+			isa = PBXGroup;
+			children = (
+				F9951572238D15C700E65F2D /* AppDelegate.swift */,
+				F9951574238D15C700E65F2D /* SceneDelegate.swift */,
+				F9951576238D15C700E65F2D /* ContentView.swift */,
+				F9951578238D15C900E65F2D /* Assets.xcassets */,
+				F995157D238D15C900E65F2D /* LaunchScreen.storyboard */,
+				F9951580238D15C900E65F2D /* Info.plist */,
+				F995157A238D15C900E65F2D /* Preview Content */,
+			);
+			path = "rusty-libpebble2";
+			sourceTree = "<group>";
+		};
+		F995157A238D15C900E65F2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F995157B238D15C900E65F2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F9951586238D167B00E65F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9951587238D167B00E65F2D /* librustylibpebble2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F995156E238D15C700E65F2D /* rusty-libpebble2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9951583238D15C900E65F2D /* Build configuration list for PBXNativeTarget "rusty-libpebble2" */;
+			buildPhases = (
+				F995156B238D15C700E65F2D /* Sources */,
+				F995156C238D15C700E65F2D /* Frameworks */,
+				F995156D238D15C700E65F2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rusty-libpebble2";
+			productName = "rusty-libpebble2";
+			productReference = F995156F238D15C700E65F2D /* rusty-libpebble2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9951567238D15C700E65F2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = rebble;
+				TargetAttributes = {
+					F995156E238D15C700E65F2D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F995156A238D15C700E65F2D /* Build configuration list for PBXProject "rusty-libpebble2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9951566238D15C700E65F2D;
+			productRefGroup = F9951570238D15C700E65F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F995156E238D15C700E65F2D /* rusty-libpebble2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F995156D238D15C700E65F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F995157F238D15C900E65F2D /* LaunchScreen.storyboard in Resources */,
+				F995157C238D15C900E65F2D /* Preview Assets.xcassets in Resources */,
+				F9951579238D15C900E65F2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F995156B238D15C700E65F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9951573238D15C700E65F2D /* AppDelegate.swift in Sources */,
+				F9951575238D15C700E65F2D /* SceneDelegate.swift in Sources */,
+				F9951577238D15C700E65F2D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F995157D238D15C900E65F2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F995157E238D15C900E65F2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9951581238D15C900E65F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9951582238D15C900E65F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9951584238D15C900E65F2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"rusty-libpebble2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = ../include;
+				INFOPLIST_FILE = "rusty-libpebble2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = ../libs;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rebble.rusty-libpebble2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ../include/rustylibpebble2.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9951585238D15C900E65F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"rusty-libpebble2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				HEADER_SEARCH_PATHS = ../include;
+				INFOPLIST_FILE = "rusty-libpebble2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = ../libs;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rebble.rusty-libpebble2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ../include/rustylibpebble2.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F995156A238D15C700E65F2D /* Build configuration list for PBXProject "rusty-libpebble2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9951581238D15C900E65F2D /* Debug */,
+				F9951582238D15C900E65F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9951583238D15C900E65F2D /* Build configuration list for PBXNativeTarget "rusty-libpebble2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9951584238D15C900E65F2D /* Debug */,
+				F9951585238D15C900E65F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9951567238D15C700E65F2D /* Project object */;
+}
