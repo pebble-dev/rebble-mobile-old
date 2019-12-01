@@ -1,4 +1,4 @@
-group 'com.rebble.rusty_libpebble2'
+group 'com.rebble.rusty_libpebble2_lib'
 version '1.0-SNAPSHOT'
 
 buildscript {

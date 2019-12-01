@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:rusty_libpebble2/rusty_libpebble2.dart';
+import 'package:rusty_libpebble2_lib/rusty_libpebble2_lib.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,11 +24,11 @@ class _MyAppState extends State<MyApp> {
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
     String platformVersion;
-    String greeting = '';
+    String greeting;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      platformVersion = await RustyLibpebble2.platformVersion;
-      greeting = await RustyLibpebble2.hello(to: 'TanMan100');
+      platformVersion = await RustyLibpebble2Lib.platformVersion;
+      greeting = await RustyLibpebble2Lib.hello(to: 'Tanner');
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
       greeting = 'Failed to get hello';

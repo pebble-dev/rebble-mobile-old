@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/rusty-libpebble2-lib-release/rusty-libpebble2-lib-release.iml" filepath="$PROJECT_DIR$/rusty-libpebble2-lib-release/rusty-libpebble2-lib-release.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rusty_libpebble2.iml" filepath="$PROJECT_DIR$/rusty_libpebble2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rusty_libpebble2_lib.iml" filepath="$PROJECT_DIR$/rusty_libpebble2_lib.iml" />
     </modules>
   </component>
 </project>

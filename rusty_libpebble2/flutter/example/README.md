@@ -1,6 +1,6 @@
-# rusty_libpebble2_example
+# rusty_libpebble2_lib_example
 
-Demonstrates how to use the rusty_libpebble2 plugin.
+Demonstrates how to use the rusty_libpebble2_lib plugin.
 
 ## Getting Started
 

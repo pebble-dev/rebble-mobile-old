@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/rusty_libpebble2.iml" filepath="$PROJECT_DIR$/rusty_libpebble2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/rusty_libpebble2_android.iml" filepath="$PROJECT_DIR$/android/rusty_libpebble2_android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/android/rusty_libpebble2_example_android.iml" filepath="$PROJECT_DIR$/example/android/rusty_libpebble2_example_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rusty_libpebble2_lib.iml" filepath="$PROJECT_DIR$/rusty_libpebble2_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/rusty_libpebble2_lib_android.iml" filepath="$PROJECT_DIR$/android/rusty_libpebble2_lib_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/rusty_libpebble2_lib_example_android.iml" filepath="$PROJECT_DIR$/example/android/rusty_libpebble2_lib_example_android.iml" />
     </modules>
   </component>
 </project>

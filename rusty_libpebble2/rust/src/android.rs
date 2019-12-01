@@ -21,7 +21,7 @@ pub extern "system" fn Java_com_rebble_rusty_1libpebble2_1lib_RustyKt_helloDirec
     .expect("Couldn't get Java string!")
     .into();
   let output = env
-    .new_string(format!("Hello from rust: {}", input))
+    .new_string(format!("Hello from rust from helloDirect :) : {}", input))
     .expect("Couldn't create a Java string!");
   output.into_inner()
 }

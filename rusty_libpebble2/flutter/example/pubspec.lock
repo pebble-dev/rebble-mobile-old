@@ -81,7 +81,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.5"
-  rusty_libpebble2:
+  rusty_libpebble2_lib:
     dependency: "direct dev"
     description:
       path: ".."

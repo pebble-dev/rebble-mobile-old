@@ -12,7 +12,7 @@ pub unsafe extern "C" fn hello(to: *const c_char) -> *mut c_char {
         Err(_) => "you",
     };
 
-    CString::new(format!("Hello from Rusty LibPebble2 [Test 5]: {}", recipient))
+    CString::new(format!("Hello from Rusty LibPebble2 [Test 8]: {}", recipient))
         .unwrap()
         .into_raw()
 }

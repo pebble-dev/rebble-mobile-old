@@ -1,4 +1,4 @@
-# rusty_libpebble2
+# rusty_libpebble2_lib
 
 A new flutter plugin project.
 
